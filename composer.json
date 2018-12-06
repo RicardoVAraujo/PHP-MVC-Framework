@@ -1,0 +1,18 @@
+{
+    "name": "jelle/htdocs",
+    "require": {
+        "twig/twig": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Jelle de Vries",
+            "email": "jl.de.vries@st.hanze.nl"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Core\\": "Core/",
+			"App\\": "App/"
+		}
+	}
+}
